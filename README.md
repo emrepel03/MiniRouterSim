@@ -2,8 +2,6 @@
 
 A fast and modular C++ simulation of a network packet router, built to demonstrate core concepts in routing, embedded systems, and object-oriented programming.
 
-Created as a hands-on technical project to prepare for a Junior C/C++ Developer role.
-
 ---
 
 ## 🧠 Features
