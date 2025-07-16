@@ -30,15 +30,18 @@ Created as a hands-on technical project to prepare for a Junior C/C++ Developer 
 ---
 
 ## 🧪 Sample Output (Performance Mode)
-[Thu Jul 17 00:32:21 2025] MiniRouterSim starting…
+```
+[Thu Jul 17 00:32:21 2025] MiniRouterSim starting...
 [Router] Added route: DeviceA → port 1
 [Router] Routing packet to Server via port 3
-…
+[Packet] From: PerfClient, To: Server, Data: Payload_998
 [Router] Routing packet to DeviceA via port 1
+[Packet] From: PerfClient, To: DeviceA, Data: Payload_999
 [Thu Jul 17 00:32:21 2025] Performance mode complete.
 [Thu Jul 17 00:32:21 2025] Total packets routed: 1000
 [Thu Jul 17 00:32:21 2025] Total time taken: 45 ms
 [Thu Jul 17 00:32:21 2025] Avg time per packet: 0.045000 ms
+```
 ---
 
 ## 🚀 Run Instructions
@@ -46,10 +49,13 @@ Created as a hands-on technical project to prepare for a Junior C/C++ Developer 
 ### 🔹 Compile:
 ```bash
 g++ main.cpp Packet.cpp Router.cpp Logger.cpp -o MiniRouterSim -std=c++17
+```
 
 🔹 Run:
+```bash
 ./MiniRouterSim                 # Demo mode
 ./MiniRouterSim --performance  # Performance mode
+```
 
 👨‍💻 Author
 
