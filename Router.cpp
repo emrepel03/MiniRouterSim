@@ -2,7 +2,7 @@
 #include <iostream>
 
 Router::Router() {
-    // Constructor: you can initialize default routes here if needed
+    // Constructor: Possible to initialize default routes here if needed
 }
 
 void Router::addRoute(string destination, int outputPort) {
